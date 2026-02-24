@@ -26,7 +26,7 @@ latest_posts:
 
 I am a researcher at [ByteDance](https://www.bytedance.com/), where I lead initiatives in **medical multimodal large language models**. My work focuses on developing **personal agentic medical AI** systems capable of understanding and reasoning over complex medical data across multiple modalities, driving innovation at the intersection of **artificial intelligence** and **healthcare**.
 
-I received my M.S. from the [University of Wisconsin–Madison](https://www.wisc.edu/), where I was fortunate to be advised by [Prof. Leyuan Shi](https://directory.engr.wisc.edu/ie/Faculty/Shi_Leyuan/) and [Prof. Xin Wang](https://directory.engr.wisc.edu/ie/Faculty/Wang_Xin/).
+I received my M.S. from the [University of Wisconsin–Madison](https://www.wisc.edu/), where I was fortunate to be advised by [Prof. Leyuan Shi](https://directory.engr.wisc.edu/ie/Faculty/Shi_Leyuan/) and [Prof. Xin Wang](https://directory.engr.wisc.edu/ie/Faculty/Wang_Xin/). 🚀 I am also a [Kaggle Master](https://www.kaggle.com/kaiwu123).
 
 <br>
 
