@@ -1,0 +1,37 @@
+# CV Data - Update with your own information
+
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Kai Wu
+    - name: Languages
+      value: Chinese, English
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Degree
+      institution: University Name
+      year: 20XX - 20XX
+      description:
+        - Your description here
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Position
+      institution: Company/Organization
+      year: 20XX - Present
+      description:
+        - Your description here
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Area 1
+      items:
+        - Description
+    - title: Area 2
+      items:
+        - Description

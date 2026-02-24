@@ -1,0 +1,9 @@
+# Add your coauthors here
+# Format:
+# "lastname":
+#   - firstname: ["Full Name", "First Initial", "etc"]
+#     url: https://coauthor-website.com
+
+"kong":
+  - firstname: ["Lingjie", "L."]
+    url: #

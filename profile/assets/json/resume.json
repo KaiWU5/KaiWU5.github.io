@@ -1,0 +1,32 @@
+{
+  "basics": {
+    "name": "Kai Wu",
+    "label": "Researcher",
+    "image": "",
+    "email": "",
+    "url": "https://kaiwu5.github.io/",
+    "summary": "",
+    "location": {
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": []
+  },
+  "work": [],
+  "education": [],
+  "awards": [],
+  "skills": [],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [],
+  "projects": []
+}

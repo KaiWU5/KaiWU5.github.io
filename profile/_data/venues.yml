@@ -1,0 +1,26 @@
+"CVPR":
+  url: https://cvpr.thecvf.com/
+  color: "#2c6fbb"
+
+"ECCV":
+  url: https://eccv.ecva.net/
+  color: "#1a4d8f"
+
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#7b2d8e"
+
+"AAAI":
+  url: https://aaai.org/
+  color: "#0d8a8a"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"
+
+"VI":
+  url: https://www.journals.elsevier.com/visual-informatics
+  color: "#2e8b57"
+
+"AIC":
+  color: "#6b7280"
