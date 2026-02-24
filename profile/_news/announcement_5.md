@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We published the **MedXIAOHE Tech Report** - our comprehensive technical report on medical AI systems.
+We published the [**MedXIAOHE Tech Report**](https://arxiv.org/abs/2602.12705) - A Comprehensive Recipe for Building Medical MLLMs
