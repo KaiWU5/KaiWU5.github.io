@@ -50,7 +50,28 @@ jobs:
           mkdir -p _site
           cp -r noiseboost _site/noiseboost
           cp -r profile/_site _site/profile
-          echo '<html><head><meta http-equiv="refresh" content="0;url=/profile/"></head></html>' > _site/index.html
+          cat > _site/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>Kai WU - Academic Homepage</title>
+          <meta name="description" content="Kai Wu's personal academic homepage.">
+          <meta name="author" content="Kai WU">
+          <link rel="canonical" href="https://kaiwu5.github.io/profile/">
+          <meta http-equiv="refresh" content="0;url=/profile/">
+          </head>
+          <body>
+          <p>Redirecting to <a href="/profile/">Kai WU's homepage</a>...</p>
+          </body>
+          </html>
+          EOF
+          cat > _site/robots.txt << 'EOF'
+          User-agent: *
+          Allow: /
+          Sitemap: https://kaiwu5.github.io/profile/sitemap.xml
+          EOF
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
