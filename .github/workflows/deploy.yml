@@ -50,6 +50,7 @@ jobs:
           mkdir -p _site
           cp -r noiseboost _site/noiseboost
           cp -r profile/_site _site/profile
+          cp googlef42909f9e7968597.html _site/
           cat > _site/index.html << 'EOF'
           <!DOCTYPE html>
           <html lang="en">
