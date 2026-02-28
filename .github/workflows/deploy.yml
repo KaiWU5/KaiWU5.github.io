@@ -68,10 +68,18 @@ jobs:
           </body>
           </html>
           EOF
+          cat > _site/sitemap.xml << 'EOF'
+          <?xml version="1.0" encoding="UTF-8"?>
+          <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+            <sitemap>
+              <loc>https://kaiwu5.github.io/profile/sitemap.xml</loc>
+            </sitemap>
+          </sitemapindex>
+          EOF
           cat > _site/robots.txt << 'EOF'
           User-agent: *
           Allow: /
-          Sitemap: https://kaiwu5.github.io/profile/sitemap.xml
+          Sitemap: https://kaiwu5.github.io/sitemap.xml
           EOF
 
       - name: Upload Pages artifact
