@@ -75,6 +75,13 @@ jobs:
           tree = ET.parse('_site/profile/sitemap.xml')
           ET.indent(tree, space='  ')
           tree.write('_site/sitemap.xml', xml_declaration=True, encoding='UTF-8')
+          # Fix single quotes to double quotes in XML declaration
+          with open('_site/sitemap.xml', 'rb') as f:
+              data = f.read()
+          data = data.replace(b"version='1.0'", b'version="1.0"')
+          data = data.replace(b"encoding='UTF-8'", b'encoding="UTF-8"')
+          with open('_site/sitemap.xml', 'wb') as f:
+              f.write(data)
           PYEOF
           cat > _site/robots.txt << 'EOF'
           User-agent: *
