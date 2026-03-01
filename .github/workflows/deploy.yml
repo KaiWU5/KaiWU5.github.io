@@ -68,7 +68,14 @@ jobs:
           </body>
           </html>
           EOF
-          xmllint --format _site/profile/sitemap.xml > _site/sitemap.xml
+          python3 << 'PYEOF'
+          import xml.etree.ElementTree as ET
+          ET.register_namespace('', 'http://www.sitemaps.org/schemas/sitemap/0.9')
+          ET.register_namespace('xsi', 'http://www.w3.org/2001/XMLSchema-instance')
+          tree = ET.parse('_site/profile/sitemap.xml')
+          ET.indent(tree, space='  ')
+          tree.write('_site/sitemap.xml', xml_declaration=True, encoding='UTF-8')
+          PYEOF
           cat > _site/robots.txt << 'EOF'
           User-agent: *
           Allow: /
