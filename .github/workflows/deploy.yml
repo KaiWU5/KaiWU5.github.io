@@ -68,7 +68,7 @@ jobs:
           </body>
           </html>
           EOF
-          cp _site/profile/sitemap.xml _site/sitemap.xml
+          xmllint --format _site/profile/sitemap.xml > _site/sitemap.xml
           cat > _site/robots.txt << 'EOF'
           User-agent: *
           Allow: /
