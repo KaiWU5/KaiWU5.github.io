@@ -3,6 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: Researcher at <a href="https://www.bytedance.com/">ByteDance</a>
+description: >
+  Kai Wu is a researcher at ByteDance working on medical multimodal large language models and personal agentic medical AI systems.
 
 profile:
   align: right
