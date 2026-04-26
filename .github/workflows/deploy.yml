@@ -50,6 +50,30 @@ jobs:
           mv profile/_site _site
           cp -r noiseboost _site/noiseboost
           cp googlef42909f9e7968597.html _site/
+          mkdir -p _site/profile
+          cat > _site/profile/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Kai WU – Redirecting…</title>
+            <link rel="canonical" href="https://kaiwu5.github.io/">
+            <meta http-equiv="refresh" content="0;url=https://kaiwu5.github.io/">
+            <style>
+              body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+                     display: flex; align-items: center; justify-content: center; min-height: 100vh;
+                     background: #fff; color: #333; }
+              p { font-size: 1.1rem; }
+              a { color: #0066cc; }
+            </style>
+          </head>
+          <body>
+            <p>Taking you to <a href="https://kaiwu5.github.io/">Kai WU's homepage</a>…</p>
+            <script>window.location.replace("https://kaiwu5.github.io/");</script>
+          </body>
+          </html>
+          EOF
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
