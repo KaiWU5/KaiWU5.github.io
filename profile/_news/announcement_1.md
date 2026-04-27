@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-06-15
+date: 2024-07-01
 inline: true
 related_posts: false
 ---
 
-:1st_place_medal: **Gold Medal** in the AI Mathematical Olympiad - Progress Prize 1!
+🏅 **Gold Medal** in the [AI Mathematical Olympiad - Progress Prize 1](https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-1)!
