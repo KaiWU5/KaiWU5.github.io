@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: Researcher at <a href="https://www.bytedance.com/">ByteDance</a>
 description: >
-  Kai Wu is a researcher at ByteDance working on medical multimodal large language models and personal agentic medical AI systems.
+  Kai Wu is a researcher at ByteDance working on LLM coding agents.
 
 profile:
   align: right
@@ -26,10 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a researcher at [ByteDance](https://www.bytedance.com/), where I lead initiatives in **medical multimodal large language models**. My work focuses on developing **personal agentic medical AI** systems capable of understanding and reasoning over complex medical data across multiple modalities, driving innovation at the intersection of **artificial intelligence** and **healthcare**.
+I am a researcher at ByteDance, where my work centers on **LLM coding agents** — building models and systems that can read, reason about, and write code autonomously.
 
-I received my M.S. from the [University of Wisconsin–Madison](https://www.wisc.edu/), where I was fortunate to be advised by [Prof. Leyuan Shi](https://directory.engr.wisc.edu/ie/Faculty/Shi_Leyuan/) and [Prof. Xin Wang](https://directory.engr.wisc.edu/ie/Faculty/Wang_Xin/). 🚀 I am also a [Kaggle Master](https://www.kaggle.com/kaiwu123).
+I received my M.S. from the [University of Wisconsin–Madison](https://www.wisc.edu/), where I was fortunate to be advised by [Prof. Leyuan Shi](https://directory.engr.wisc.edu/ie/Faculty/Shi_Leyuan/) and [Prof. Xin Wang](https://directory.engr.wisc.edu/ie/Faculty/Wang_Xin/). 🚀 I am also a [Kaggle Master](https://www.kaggle.com/kaiwu123), ranked in the **global top 0.2%**.
 
-<br>
-
-<p style="text-align: center; font-size: 1.15rem;">🎉🎊 <strong>MedXIAOHE is hiring!</strong> We are seeking talented individuals with expertise in LLMs, MLLMs, Medical AI for scientific applications, and AI Agents. 🎊🎉</p>
+Feel free to reach out — I am always happy to connect.
