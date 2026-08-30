@@ -2,9 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Research projects
-nav: false
-nav_order: 3
+description: Research projects and living resources
+nav: true
+nav_order: 2
 horizontal: false
 ---
 

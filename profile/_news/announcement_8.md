@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We released <img src="/assets/img/ai4ai_logo.png" alt="AI4AI" style="height: 1.9em; width: auto; vertical-align: -0.55em; margin-right: 0.2em;"> [**Awesome-AI4AI**](https://github.com/KaiWU5/Awesome-AI4AI) — Weekly-updated papers, news, and resources for AI-for-AI research
+We released <img src="/assets/img/ai4ai_logo.png" alt="AI4AI" style="height: 1.9em; width: auto; vertical-align: -0.55em; margin-right: 0.2em;"> [**Awesome-AI4AI**](https://kaiwu5.github.io/Awesome-AI4AI/) — Weekly-updated papers, news, and resources for AI-for-AI research \[[code](https://github.com/KaiWU5/Awesome-AI4AI)\]

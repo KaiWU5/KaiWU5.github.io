@@ -57,7 +57,7 @@ bib_search: false
 max_width: 980px
 
 # TODO: add layout settings (single page vs. multi-page)
-single_page_mode: true # hide navbar menu and dropdowns for a single-page site
+single_page_mode: false # hide navbar menu and dropdowns for a single-page site
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
